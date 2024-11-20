@@ -231,6 +231,8 @@ class UserController extends Controller
                         'message' => 'New password and confirmed password does not match'
                     ], 400);
                 }
+
+                
             } else {
                 return response()->json([
                     'status' => 0,
