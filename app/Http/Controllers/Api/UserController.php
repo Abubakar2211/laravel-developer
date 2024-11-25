@@ -49,7 +49,10 @@ class UserController extends Controller
 
         // echo Count($users);
         // p($users);
+
     }
+
+
 
     /**
      * Show the form for creating a new resource.
@@ -97,7 +100,6 @@ class UserController extends Controller
         }
 
     }
-
     /**
      * Display the specified resource.
      */
@@ -111,7 +113,6 @@ class UserController extends Controller
         }
         return response()->json($response, 200);
     }
-
     /**
      * Show the form for editing the specified resource.
      */
